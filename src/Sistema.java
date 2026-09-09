@@ -21,5 +21,12 @@ public class Sistema {
         return mediaAluno;
     }
 
+    public static String verificarSituacao(double mediaAluno) {
+        if (mediaAluno >= 6){
+            return "Aprovado";
+        }else {
+            return "Reprovado";
+        }
 
+    }
 }
